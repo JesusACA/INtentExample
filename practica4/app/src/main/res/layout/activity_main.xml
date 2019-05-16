@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:paddingBottom="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:textSize="16dp"
+        android:text="@string/TVCorreo"
+
+        />
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:textSize="16dp"
+        android:text="@string/TVAsunto"
+
+        />
+
+    <EditText
+        android:id="@+id/txtAsunto"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:textSize="16dp"
+        android:text="@string/TVMensaje"
+
+        />
+
+    <EditText
+        android:id="@+id/txtMensaje"
+        android:layout_width="fill_parent"
+        android:layout_height="108dp"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBoton"
+        >
+
+    </Button>
+
+
+</LinearLayout>
+
+
+

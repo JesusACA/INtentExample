@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PracticaIntent</string>
+    <string name="txtNombre"></string>
+    <string name="txtBoton">Aceptar</string>
+    <string name="TVCorreo">Correo</string>
+    <string name="TVAsunto">Asunto</string>
+    <string name="TVMensaje">Mensaje</string>
+    <string name="btnArchivo">archivo</string>
+</resources>
